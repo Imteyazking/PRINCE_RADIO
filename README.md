@@ -1,4 +1,4 @@
-# PRINCE_RADIO
+# Lovetalks radio
 A Telegram Bot to Play Audio & Radio in Voice Chats.
 
 ## Deploy to Heroku
@@ -30,4 +30,5 @@ A Telegram Bot to Play Audio & Radio in Voice Chats.
 
 ## Credits 
 - This one is completly based on work of [Dash Eclipse's](https://github.com/dashezup) [tgvc-userbot](https://github.com/callsmusic/tgvc-userbot). I just added Bot and Channel support.
+
 
