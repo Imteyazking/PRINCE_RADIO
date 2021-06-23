@@ -1,4 +1,4 @@
-# PRINCE_RADIO
+# Lovetalks radio
 A Telegram Bot to Play Audio & Radio in Voice Chats.
 
 ## Deploy to Heroku
