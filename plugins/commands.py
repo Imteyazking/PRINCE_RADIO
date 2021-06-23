@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "Helo, [{}](tg://user?id={})\n\n I am PRINCE_RADIO bot which plays music in [MUSIC + CHATS GROUP](https://t.me/music_and_chats)"
+HOME_TEXT = "Helo, [{}](tg://user?id={})\n\n I am Imteyaz_RADIO bot which plays music in [MUSIC + CHATS GROUP](https://t.me/King_fighter_Bot_support)"
 HELP = """**Common Commands**:
 
 **/play**  Reply with an audio to play/queue it, or show playlist
@@ -34,12 +34,12 @@ HELP = """**Common Commands**:
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('BOT UPDATES🧐', url='https://t.me/PRINCEBOTA'),
-        InlineKeyboardButton('🎵MUSIC GROUP🎧', url='https://t.me/MUSIC_AND_CHATS'),
+        InlineKeyboardButton('BOT UPDATES🧐', url='https://t.me/King_fighter_Bot_support'),
+        InlineKeyboardButton('🎵MUSIC GROUP🎧', url='https://t.me/love_talks_fam'),
     ],
     [
-        InlineKeyboardButton('⚜️OWNER⚜️', url='https://t.me/PRINCE_3011'),
-        InlineKeyboardButton('SOURCE🗃️', url='https://t.me/princebotsupport'),
+        InlineKeyboardButton('⚜️OWNER⚜️', url='https://t.me/Imteyaz_king'),
+        InlineKeyboardButton('SOURCE🗃️', url='https://t.me/King_fighter_Bot_support'),
     ],
     [
         InlineKeyboardButton('Help', callback_data='help'),
@@ -54,3 +54,4 @@ async def start(client, message):
 @Client.on_message(filters.command("help"))
 async def show_help(client, message):
     await message.reply_text(HELP)
+.alive
